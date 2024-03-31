@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "async-healthcheck"
+version = "0.6.0"
+description = "A compact asynchronous healthcheck using only the standard library"
+authors = ["Evgeny Aleshin"]
+readme = "README.md"
+license = "Apache-2.0"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
