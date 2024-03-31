@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "async-healthcheck"
-version = "0.6.0"
+version = "0.7.0"
 description = "A compact asynchronous healthcheck using only the standard library"
 authors = ["Evgeny Aleshin"]
 readme = "README.md"

@@ -71,7 +71,7 @@ class HealthCheckServer:
         """Send an HTTP response."""
         writer.write(f"HTTP/1.1 {status.value} {status.phrase}\r\n\r\n".encode())
         if status == self.success_code:
-            logger.info(f"Healthcheck response: {status.value} {status.phrase}")
+            logger.debug(f"Healthcheck response: {status.value} {status.phrase}")
         else:
             logger.error(f"Healthcheck response: {status.value} {status.phrase}")
         writer.close()
